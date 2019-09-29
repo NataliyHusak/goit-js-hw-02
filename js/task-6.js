@@ -61,9 +61,3 @@ console.log(message);
 // let input;
 // let numbers = [];
 // let total = 0;
-
-// while (input !== null) {
-//   input = prompt("Enter a number");
-//   numbers.push(input);
-//   console.log(numbers);
-// }
