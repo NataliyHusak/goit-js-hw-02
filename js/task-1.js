@@ -1,21 +1,13 @@
 "use strict";
 
-// const arr = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong'];
-// for (let i = 0; i < arr.length; i += 1) {
-// const namePosition = (i +1);
-// const message = ( `${namePosition} - ${arr[i]}` )
-//   console.log(message);
-// }
 
 
 function logItems(arr) {
-  let message = 0;
+  let message;
   for (let i = 0; i < arr.length; i += 1) {
-    const namePosition = i + 1;
-    message = `${namePosition} - ${arr[i]}`;
+    message = `${i + 1} - ${arr[i]} \n`;
     console.log(message);
   }
-  return message;
 }
 
 console.log(logItems(["Mango", "Poly", "Ajax", "Lux", "Jay", "Kong"]));
